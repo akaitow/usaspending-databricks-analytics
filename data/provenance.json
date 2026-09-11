@@ -1,0 +1,55 @@
+{
+  "source_files": [
+    {
+      "file": "bronze_wrangling.ipynb",
+      "sha256": "bcc74a7d4b6109d85e3aa31d6e92ca0c5192328bee5061e3b665b1816d19da06"
+    },
+    {
+      "file": "KPI_definition.ipynb",
+      "sha256": "e44a286a01b96ba157cd2c9925893688a7fbb4dfca239bca7160412e89580c1a"
+    }
+  ],
+  "extracts": [
+    {
+      "file": "column_missingness.csv",
+      "source_notebook": "bronze_wrangling.ipynb",
+      "source_cell_index": 3,
+      "rows": 297,
+      "label_changes": "contract_count -> transaction_count, where present; values unchanged"
+    },
+    {
+      "file": "column_dominance.csv",
+      "source_notebook": "bronze_wrangling.ipynb",
+      "source_cell_index": 4,
+      "rows": 296,
+      "label_changes": "contract_count -> transaction_count, where present; values unchanged"
+    },
+    {
+      "file": "agency_obligations.csv",
+      "source_notebook": "KPI_definition.ipynb",
+      "source_cell_index": 7,
+      "rows": 10,
+      "label_changes": "contract_count -> transaction_count, where present; values unchanged"
+    },
+    {
+      "file": "award_type_transactions.csv",
+      "source_notebook": "KPI_definition.ipynb",
+      "source_cell_index": 14,
+      "rows": 11,
+      "label_changes": "contract_count -> transaction_count, where present; values unchanged"
+    },
+    {
+      "file": "industry_obligations.csv",
+      "source_notebook": "KPI_definition.ipynb",
+      "source_cell_index": 18,
+      "rows": 10,
+      "label_changes": "contract_count -> transaction_count, where present; values unchanged"
+    }
+  ],
+  "scope": "Saved outputs from the supplied FY2025 Databricks notebooks; no fresh source-data query.",
+  "summary_sources": {
+    "row_and_column_counts": "bronze_wrangling.ipynb, cells 2 and 6",
+    "total_obligations_usd": "KPI_definition.ipynb, cell 1; original billions multiplied by 1e9",
+    "full_open_competition_transaction_pct": "KPI_definition.ipynb, cell 9"
+  }
+}

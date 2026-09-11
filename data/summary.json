@@ -1,0 +1,11 @@
+{
+  "transaction_rows": 5804212,
+  "source_columns": 297,
+  "retained_columns": 48,
+  "retained_rows": 5804212,
+  "total_obligations_usd": 653864837844.8691,
+  "full_open_competition_transaction_pct": 59.38,
+  "source_scope": "FY2025 contract CSV snapshot referenced by original notebooks",
+  "filename_date_token": "20251108",
+  "execution_status": "Historical saved outputs; original Databricks queries not rerun during portfolio preparation."
+}
